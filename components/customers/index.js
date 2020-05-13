@@ -3,7 +3,7 @@ import styles from "./customers.module.css";
 
 const Logo = ({ filename, alt, vertical = false }) => (
   <img
-    src={`/${filename}`}
+    src={`/images/${filename}`}
     alt={alt}
     className={vertical ? styles.imageVerical : styles.image}
   />
