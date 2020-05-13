@@ -1,8 +1,9 @@
 import styles from "./nav.module.css";
+import gridStyles from "../../styles/grid.module.css";
 
 export default () => (
   <div className={styles.background}>
-    <div className="container">
+    <div className={gridStyles.container}>
       <div className={styles.nav}>
         <div className={styles.logo}>
           <a href="/">

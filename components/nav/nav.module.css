@@ -46,9 +46,9 @@
   padding: 8px 16px;
   margin-top: 8px;
   cursor: pointer;
-  border: 2px solid var(--black);
+  border: 2px solid var(--dark);
   font-weight: 700;
-  box-shadow: 3px 6px 0 var(--black);
+  box-shadow: 3px 6px 0 var(--dark);
   transition: box-shadow 0.2s ease-in-out;
 }
 

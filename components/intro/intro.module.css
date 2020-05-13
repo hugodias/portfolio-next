@@ -1,0 +1,6 @@
+.block {
+  flex: 0 0 75%;
+  max-width: 75%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}

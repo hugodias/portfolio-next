@@ -136,6 +136,7 @@ Variables
   --white: #ffffff;
   --base: #f7f6f0;
   --gray: #7e8082;
+  --dark: #383838;
   --black: #000;
   --gray100: #111;
   --gray300: #333;
@@ -167,12 +168,33 @@ html {
 }
 
 p {
-  line-height: 1.6;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--dark);
+  line-height: 28px;
   padding-bottom: 10px;
+}
+
+strong {
+  font-weight: 700;
 }
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: -0.08em;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
 }
 
 ::selection {
@@ -189,36 +211,4 @@ a {
   background: var(--gray300);
   color: #fff;
   text-shadow: none;
-}
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
 }

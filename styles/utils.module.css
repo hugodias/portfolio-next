@@ -1,0 +1,27 @@
+.headingBlocked {
+  display: inline-block;
+  margin-top: 0;
+  color: var(--dark);
+  background: var(--yellow);
+  padding: 3px 10px;
+}
+
+.lead {
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 0.5rem;
+}
+
+.textWithBorder {
+  text-decoration: none;
+  color: var(--dark);
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(35%, rgba(255, 215, 0, 0.4)),
+    color-stop(35%, transparent)
+  );
+  background: linear-gradient(0deg, rgba(255, 215, 0, 0.4) 35%, transparent 0);
+  font-weight: 700;
+}

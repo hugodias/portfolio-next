@@ -1,7 +1,9 @@
 import styles from "./hero.module.css";
+import gridStyles from "../../styles/grid.module.css";
+
 export default () => (
   <div className={styles.background}>
-    <div className="container">
+    <div className={gridStyles.container}>
       <h1 className={styles.title}>
         I <span>design</span> and <span className={styles.break} />{" "}
         <span>develop</span> <span>experiences</span>
