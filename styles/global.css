@@ -141,6 +141,7 @@ Variables
   --gray100: #111;
   --gray300: #333;
   --gray400: #444;
+  --gray900: #fcfcfc;
   --yellow: #ffe01b;
 }
 
@@ -172,7 +173,7 @@ p {
   font-weight: 300;
   color: var(--dark);
   line-height: 28px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 strong {
@@ -195,6 +196,11 @@ h2 {
 h3 {
   font-size: 25px;
   font-weight: 700;
+}
+
+ul {
+  list-style: circle;
+  padding-left: 2rem;
 }
 
 ::selection {

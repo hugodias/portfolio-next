@@ -1,0 +1,9 @@
+.block {
+  background-color: var(--gray900);
+  padding: 90px 0;
+  margin-top: 4rem;
+}
+
+.title {
+  margin-bottom: 4rem;
+}
