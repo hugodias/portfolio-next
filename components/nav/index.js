@@ -18,6 +18,7 @@ export default () => (
               <a
                 href="https://blog.hdias.dev"
                 className={styles.button}
+                rel="noopener"
                 target="_blank"
               >
                 Blog
