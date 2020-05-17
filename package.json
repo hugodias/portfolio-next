@@ -26,5 +26,10 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
-  "license": "ISC"
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://github.com/hugodias/portfolio-next/blob/master/LICENSE"
+    }
+  ]
 }
