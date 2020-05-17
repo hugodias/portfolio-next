@@ -1,8 +1,9 @@
 import styles from "./footer.module.css";
-import gridStyles from "styles/grid.module.css";
+import utilStyles from "styles/utils.module.css";
+
 export default () => (
   <footer className={styles.block}>
-    <div className={gridStyles.container}>
+    <div className={utilStyles.container}>
       <h2 className={styles.title}>Vamos conversar?</h2>
       <a href="mailto:hugooodias@gmail.com" className={styles.link}>
         hugooodias@gmail.com

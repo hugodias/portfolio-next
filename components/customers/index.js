@@ -1,4 +1,4 @@
-import gridStyles from "../../styles/grid.module.css";
+import utilStyles from "../../styles/utils.module.css";
 import styles from "./customers.module.css";
 
 const Logo = ({ filename, alt, vertical = false }) => (
@@ -10,7 +10,7 @@ const Logo = ({ filename, alt, vertical = false }) => (
 );
 
 export default () => (
-  <div className={gridStyles.container}>
+  <div className={utilStyles.container}>
     <div className={styles.list}>
       <Logo filename="rock-content.png" alt="Rock Content" />
       <Logo filename={"magnetis.svg"} alt="Magnetis Investimentos" />

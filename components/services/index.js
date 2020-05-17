@@ -1,11 +1,11 @@
-import gridStyles from "../../styles/grid.module.css";
-import styles from "./services.module.css";
 import utilStyles from "styles/utils.module.css";
+import styles from "./services.module.css";
+
 import Service from "components/service";
 
 export default () => (
   <div className={styles.block}>
-    <div className={gridStyles.container}>
+    <div className={utilStyles.container}>
       <h2 className={styles.title}>Como posso ajudar</h2>
 
       <Service title="Produto">

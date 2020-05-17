@@ -1,9 +1,8 @@
-import gridStyles from "../../styles/grid.module.css";
-import utilStyles from "../../styles/utils.module.css";
+import utilStyles from "styles/utils.module.css";
 import styles from "./intro.module.css";
 
 export default () => (
-  <div className={gridStyles.container}>
+  <div className={utilStyles.container}>
     <div className={styles.block}>
       <p className={utilStyles.lead}>
         Olá, meu nome é <strong>Hugo Dias</strong>. Sou engenheiro de software

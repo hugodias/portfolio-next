@@ -1,11 +1,10 @@
 import styles from "./cases.module.css";
-import gridStyles from "styles/grid.module.css";
 import utilStyles from "styles/utils.module.css";
 import Case from "components/case";
 
 export default () => (
   <div className={styles.block}>
-    <div className={gridStyles.container}>
+    <div className={utilStyles.container}>
       <h2 className={styles.title}>Cases</h2>
 
       <Case title="Magnetis">
