@@ -1,6 +1,21 @@
 {
-  "name": "layout-component",
+  "name": "portfolio-next",
+  "description": "Code for hdias.dev website",
   "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "Hugo Dias",
+      "email": "hugooodias@gmail.com",
+      "web": "https://hdias.dev"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/hugodias/portfolio-next.git"
+    }
+  ],
+  "homepage": "https://hdias.dev",
   "scripts": {
     "dev": "next",
     "build": "next build",
