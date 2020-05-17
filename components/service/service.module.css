@@ -3,14 +3,6 @@
   max-width: 75%;
 }
 
-.title {
-  background-color: var(--yellow);
-  color: var(--dark);
-  display: inline-block;
-  margin-top: 0;
-  padding: 3px 10px;
-}
-
 .content {
   padding: 1.8rem 0;
 }

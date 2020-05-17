@@ -1,0 +1,46 @@
+.block {
+  padding: 4rem 0;
+  text-align: center;
+}
+.title {
+  color: var(--dark);
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+.link {
+  color: var(--dark);
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 54px;
+  text-decoration: none;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(35%, rgba(255, 215, 0, 0.8)),
+    color-stop(35%, transparent)
+  );
+  background: linear-gradient(0deg, rgba(255, 215, 0, 0.8) 35%, transparent 0);
+  margin-bottom: 8px;
+}
+.link,
+.list li a {
+  border-bottom: none;
+}
+
+.list {
+  padding: 50px 0;
+}
+.list li {
+  display: inline;
+}
+.list li:first-child {
+  margin-right: 20px;
+}
+.list li a svg {
+  width: 35px;
+  height: 35px;
+}

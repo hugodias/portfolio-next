@@ -1,0 +1,31 @@
+.block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.titleWrapper {
+  margin-right: 20px;
+  flex: 0 0 280px;
+}
+.contentWrapper,
+.contentWrapper p,
+.contentWrapper a {
+  color: var(--white) !important;
+}
+
+.contentWrapper ul {
+  padding-top: 10px;
+}
+
+.contentWrapper h4 {
+  margin-top: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .block {
+    flex-direction: column;
+  }
+  .titleWrapper {
+    flex: 0 0 80px;
+  }
+}

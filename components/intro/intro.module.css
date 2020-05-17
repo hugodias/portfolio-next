@@ -4,3 +4,10 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+@media (max-width: 767.98px) {
+  .block {
+    flex: 1;
+    max-width: 100%;
+    text-align: center;
+  }
+}

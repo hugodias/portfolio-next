@@ -1,0 +1,9 @@
+.block {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 4rem 0;
+}
+
+.title {
+  margin-bottom: 4rem;
+}

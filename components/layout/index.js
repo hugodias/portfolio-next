@@ -1,9 +1,9 @@
-import Link from "next/link";
 import Head from "next/head";
-import Nav from "../nav";
+import Nav from "components/nav";
+import Footer from "components/footer";
 import "./layout.module.css";
 
-export default ({ children, title = "This is the default title" }) => (
+export default ({ children, title = "Hugo Dias | Software Enginner" }) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -80,6 +80,6 @@ export default ({ children, title = "This is the default title" }) => (
 
     {children}
 
-    <footer>{"I`m here to stay"}</footer>
+    <Footer />
   </div>
 );

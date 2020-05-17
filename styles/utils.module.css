@@ -12,6 +12,10 @@
   margin-bottom: 0.5rem;
 }
 
+.mb {
+  margin-bottom: 1rem;
+}
+
 .textWithBorder {
   text-decoration: none;
   color: var(--dark);
@@ -24,4 +28,12 @@
   );
   background: linear-gradient(0deg, rgba(255, 215, 0, 0.4) 35%, transparent 0);
   font-weight: 700;
+}
+
+.textWithBackgroundYellow {
+  background-color: var(--yellow);
+  color: var(--dark);
+  display: inline-block;
+  margin-top: 0;
+  padding: 3px 10px;
 }
