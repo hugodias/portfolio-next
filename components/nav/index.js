@@ -1,5 +1,6 @@
-import styles from "./nav.module.css";
-import utilStyles from "styles/utils.module.css";
+import utilStyles from 'styles/utils.module.css';
+
+import styles from './nav.module.css';
 
 export default () => (
   <div className={styles.background}>
@@ -16,7 +17,7 @@ export default () => (
           <ul>
             <li>
               <a
-                href="https://blog.hdias.dev"
+                href="https://hugodias.substack.com/"
                 className={styles.button}
                 rel="noopener"
                 target="_blank"
